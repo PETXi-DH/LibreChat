@@ -28,5 +28,5 @@ export default {
   ...preset,
   ...lang,
   ...settings,
-  ...banner,
+//  ...banner,
 };

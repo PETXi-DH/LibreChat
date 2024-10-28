@@ -15,7 +15,7 @@ import PanelSwitch from '~/components/SidePanel/Builder/PanelSwitch';
 import AgentPanelSwitch from '~/components/SidePanel/Agents/AgentPanelSwitch';
 import PromptsAccordion from '~/components/Prompts/PromptsAccordion';
 import Parameters from '~/components/SidePanel/Parameters/Panel';
-import FilesPanel from '~/components/SidePanel/Files/Panel';
+//import FilesPanel from '~/components/SidePanel/Files/Panel';
 import { Blocks, AttachmentIcon } from '~/components/svg';
 import { useHasAccess } from '~/hooks';
 
@@ -103,13 +103,14 @@ export default function useSideNavLinks({
       });
     }
 
-    links.push({
+/*    links.push({
       title: 'com_sidepanel_attach_files',
       label: '',
       icon: AttachmentIcon,
       id: 'files',
       Component: FilesPanel,
     });
+*/
 
     if (hasAccessToBookmarks) {
       links.push({
