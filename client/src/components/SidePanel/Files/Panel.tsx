@@ -7,8 +7,8 @@ export default function FilesPanel() {
   const { data: files = [] } = useGetFiles<TFile[]>();
 
   return (
-//    <div className="h-auto max-w-full overflow-x-hidden">
-//      <DataTable columns={columns} data={files} />
- //   </div>
+    <div className="h-auto max-w-full overflow-x-hidden">
+      <DataTable columns={columns} data={files} />
+    </div>
   );
 }
